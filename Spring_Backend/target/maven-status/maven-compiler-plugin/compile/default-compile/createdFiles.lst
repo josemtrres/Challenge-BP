@@ -1,0 +1,6 @@
+com/example/demo/DemoApplication.class
+com/example/demo/models/transfer.class
+com/example/demo/models/clients.class
+com/example/demo/controllers/balanceCntrl.class
+com/example/demo/config/DynamoConfig.class
+com/example/demo/models/accounts.class

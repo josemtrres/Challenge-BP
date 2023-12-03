@@ -1,0 +1,15 @@
+{
+    "TableName":"Cuentas",
+    "KeySchema" : [
+        {"AttributeName": "id_cuenta", "KeyType":"HASH"},
+        {"AttributeName" : "id_cliente", "KeyType":"RANGE"}
+    ],
+    "AttributeDefinitions" : [
+        {"AttributeName": "id_cliente", "AttributeType": "N"},
+        {"AttributeName": "id_cuenta", "AttributeType":"N"}
+    ],
+    "ProvisionedThroughput":{
+        "ReadCapacityUnits":4,
+        "WriteCapacityUnits":4
+    }
+}

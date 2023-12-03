@@ -1,0 +1,16 @@
+{
+    "TableName": "Transacciones",
+    "KeySchema": [
+      { "AttributeName": "id_cuenta_origen", "KeyType": "HASH" },
+      { "AttributeName": "id_cuenta_destino", "KeyType": "RANGE" }
+    ],
+    "AttributeDefinitions": [
+      { "AttributeName": "id_cuenta_origen", "AttributeType": "N" },
+      { "AttributeName": "id_cuenta_destino", "AttributeType": "N" }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 4,
+      "WriteCapacityUnits": 4
+    }
+  }
+  

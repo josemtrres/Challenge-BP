@@ -1,0 +1,28 @@
+{
+  "Items" : [
+    {
+      "id_cliente": {
+          "N": "9876543210"
+      },
+      "Nombre": {
+          "S": "Pedro Rodríguez"
+      }
+    },
+    {
+      "id_cliente": {
+          "N": "6543210987"
+      },
+      "Nombre": {
+          "S": "María García"
+      }
+    },
+    {
+      "id_cliente": {
+        "N": "6543210987"
+      },
+      "Nombre": {
+        "S":"María García"
+      }
+    }            
+  ]
+}
